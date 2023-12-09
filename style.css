@@ -1,5 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+header{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header a{
+  padding: 10px;
+  text-decoration: none;
+  color: gray;
+}
+header a:hover{
+  color: red;
+}
+#featured-property img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#featured-property figcaption{
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+#featured-property p{
+  text-align: center;
+  width: 800px;
+  padding: 10px;
+  margin-left: 280px;
+}
+#details{
+  display: flex;
+}
+
+#details div{
+  float: left;
+  width: 20%;
 }
